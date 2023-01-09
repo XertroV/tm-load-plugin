@@ -21,7 +21,7 @@ const string MenuTitle = "\\$3f3" + PluginIcon + "\\$z " + Meta::ExecutingPlugin
 
 // show the window immediately upon installation
 [Setting hidden]
-bool ShowWindow = true;
+bool ShowWindow = false;
 
 /** Render function called every frame intended only for menu items in `UI`. */
 void RenderMenu() {
